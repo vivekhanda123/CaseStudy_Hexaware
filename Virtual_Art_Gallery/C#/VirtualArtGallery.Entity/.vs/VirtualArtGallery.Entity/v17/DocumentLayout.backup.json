@@ -3,43 +3,45 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99293C75-1E21-437C-81A0-FB94D5BA9678}|..\\VirtualArtGallery.UnitTesting\\VirtualArtGallery.UnitTesting.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.unittesting\\artworkmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\service\\ivirtualartgalleryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\repository\\virtualartgalleryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5821DC-313B-47EC-9027-9F0CBC9A1BB7}|..\\VirtualArtGallery.Util\\VirtualArtGallery.Util.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.util\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99293C75-1E21-437C-81A0-FB94D5BA9678}|..\\VirtualArtGallery.UnitTesting\\VirtualArtGallery.UnitTesting.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.unittesting\\gallerymanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|solutionrelative:artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{057847AE-FB89-4E8E-8839-519F5998B558}|..\\VirtualArtGallery.UI\\VirtualArtGallery.UI.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\repository\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\service\\virtualartgalleryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|solutionrelative:gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{057847AE-FB89-4E8E-8839-519F5998B558}|..\\VirtualArtGallery.UI\\VirtualArtGallery.UI.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\exceptions\\artworknotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\service\\ivirtualartgalleryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|solutionrelative:artwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99293C75-1E21-437C-81A0-FB94D5BA9678}|..\\VirtualArtGallery.UnitTesting\\VirtualArtGallery.UnitTesting.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.unittesting\\artworkmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99293C75-1E21-437C-81A0-FB94D5BA9678}|..\\VirtualArtGallery.UnitTesting\\VirtualArtGallery.UnitTesting.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.unittesting\\userfavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5821DC-313B-47EC-9027-9F0CBC9A1BB7}|..\\VirtualArtGallery.Util\\VirtualArtGallery.Util.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.util\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99293C75-1E21-437C-81A0-FB94D5BA9678}|..\\VirtualArtGallery.UnitTesting\\VirtualArtGallery.UnitTesting.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.unittesting\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\repository\\ivirtualartgalleryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -53,13 +55,6 @@
       "RelativeMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|solutionrelative:artworkgallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C8BAC-B989-42CB-98EC-B7A7A32E4183}|VirtualArtGallery.Entity.csproj|solutionrelative:artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\repository\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,9 +62,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\repository\\artworkgalleryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD5821DC-313B-47EC-9027-9F0CBC9A1BB7}|..\\VirtualArtGallery.Util\\VirtualArtGallery.Util.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.util\\db.properties||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CD360DA-47BF-4343-847B-865B4B4C9648}|..\\VirtualArtGallery.BusinessLayer\\VirtualArtGallery.BusinessLayer.csproj|c:\\users\\admin\\downloads\\hexaware_casestudy\\virtual_art_gallery\\c#\\virtualartgallery.businesslayer\\repository\\favoriteartworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -106,37 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GalleryManagement.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\GalleryManagement.cs",
-              "RelativeDocumentMoniker": "..\\VirtualArtGallery.UnitTesting\\GalleryManagement.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\GalleryManagement.cs",
-              "RelativeToolTip": "..\\VirtualArtGallery.UnitTesting\\GalleryManagement.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T16:24:00.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VirtualArtGalleryImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
-              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
-              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAwAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T15:06:02.701Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -146,7 +112,7 @@
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.UI\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UI\\Program.cs",
               "RelativeToolTip": "..\\VirtualArtGallery.UI\\Program.cs",
-              "ViewState": "AgIAADgBAAAAAAAAAADwv2wBAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAYwFcBAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T11:50:16.903Z",
               "EditorCaption": ""
@@ -159,20 +125,111 @@
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\VirtualArtGalleryRepository.cs",
               "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\VirtualArtGalleryRepository.cs",
               "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Repository\\VirtualArtGalleryRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwB8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T11:59:47.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T11:58:15.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Util\\DBConnection.cs",
+              "RelativeDocumentMoniker": "..\\VirtualArtGallery.Util\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Util\\DBConnection.cs",
+              "RelativeToolTip": "..\\VirtualArtGallery.Util\\DBConnection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:10:28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArtWorkNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
+              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T13:59:10.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IVirtualArtGalleryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
+              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
+              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:00:52.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VirtualArtGalleryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
+              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
+              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Service\\VirtualArtGalleryImpl.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:06:02.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArtistRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
+              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
+              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T13:57:19.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserFavorite.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\UserFavorite.cs",
+              "RelativeDocumentMoniker": "..\\VirtualArtGallery.UnitTesting\\UserFavorite.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\UserFavorite.cs",
+              "RelativeToolTip": "..\\VirtualArtGallery.UnitTesting\\UserFavorite.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAF4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:24:00.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ArtworkManagement.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\ArtworkManagement.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.UnitTesting\\ArtworkManagement.cs",
               "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\ArtworkManagement.cs",
               "RelativeToolTip": "..\\VirtualArtGallery.UnitTesting\\ArtworkManagement.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T16:15:18.496Z",
               "EditorCaption": ""
@@ -180,71 +237,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Gallery.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\Gallery.cs",
-              "RelativeDocumentMoniker": "Gallery.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\Gallery.cs",
-              "RelativeToolTip": "Gallery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:55:42.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\User.cs",
-              "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\User.cs",
-              "RelativeToolTip": "User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:58:15.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Artwork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\Artwork.cs",
               "RelativeDocumentMoniker": "Artwork.cs",
               "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\Artwork.cs",
               "RelativeToolTip": "Artwork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T11:51:48.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Util\\DBConnection.cs",
-              "RelativeDocumentMoniker": "..\\VirtualArtGallery.Util\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Util\\DBConnection.cs",
-              "RelativeToolTip": "..\\VirtualArtGallery.Util\\DBConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T18:10:28Z",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\App.config",
+              "RelativeDocumentMoniker": "..\\VirtualArtGallery.UnitTesting\\App.config",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.UnitTesting\\App.config",
+              "RelativeToolTip": "..\\VirtualArtGallery.UnitTesting\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-14T11:32:31.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ArtWorkNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
-              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
-              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Exceptions\\ArtWorkNotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T13:59:10.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "UserNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Exceptions\\UserNotFoundException.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Exceptions\\UserNotFoundException.cs",
@@ -257,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IVirtualArtGalleryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\IVirtualArtGalleryRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\IVirtualArtGalleryRepository.cs",
@@ -270,20 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IVirtualArtGalleryImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
-              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
-              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Service\\IVirtualArtGalleryImpl.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T12:00:52.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FavoriteArtwork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\FavoriteArtwork.cs",
               "RelativeDocumentMoniker": "FavoriteArtwork.cs",
@@ -296,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ArtworkGallery.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\ArtworkGallery.cs",
               "RelativeDocumentMoniker": "ArtworkGallery.cs",
@@ -309,20 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Artist.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\Artist.cs",
-              "RelativeDocumentMoniker": "Artist.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Entity\\Artist.cs",
-              "RelativeToolTip": "Artist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:48:57.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\UserRepository.cs",
@@ -335,20 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ArtistRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
-              "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
-              "RelativeToolTip": "..\\VirtualArtGallery.BusinessLayer\\Repository\\ArtistRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T13:57:19.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "ArtworkRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\ArtworkRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\ArtworkRepository.cs",
@@ -361,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ArtworkGalleryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\ArtworkGalleryRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\ArtworkGalleryRepository.cs",
@@ -374,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "FavoriteArtworkRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\FavoriteArtworkRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\FavoriteArtworkRepository.cs",
@@ -388,19 +367,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "db.properties",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Util\\db.properties",
-              "RelativeDocumentMoniker": "..\\VirtualArtGallery.Util\\db.properties",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.Util\\db.properties",
-              "RelativeToolTip": "..\\VirtualArtGallery.Util\\db.properties",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-11T18:52:54.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "IArtworkRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\IArtworkRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\IArtworkRepository.cs",
@@ -413,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\IUserRepository.cs",
@@ -426,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "IArtworkGalleryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\IArtworkGalleryRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\IArtworkGalleryRepository.cs",
@@ -439,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "GalleryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\GalleryRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\GalleryRepository.cs",
@@ -452,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "IGalleryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\IGalleryRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\IGalleryRepository.cs",
@@ -465,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "IFavoriteArtworkRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\IFavoriteArtworkRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\IFavoriteArtworkRepository.cs",
@@ -478,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "IArtistRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Repository\\IArtistRepository.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Repository\\IArtistRepository.cs",
@@ -491,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Hexaware_CaseStudy\\Virtual_Art_Gallery\\C#\\VirtualArtGallery.BusinessLayer\\Class1.cs",
               "RelativeDocumentMoniker": "..\\VirtualArtGallery.BusinessLayer\\Class1.cs",

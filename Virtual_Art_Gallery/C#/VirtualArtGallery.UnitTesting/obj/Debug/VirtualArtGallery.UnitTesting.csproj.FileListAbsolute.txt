@@ -20,3 +20,4 @@ C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGal
 C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.UnitTesting\obj\Debug\VirtualA.8786954D.Up2Date
 C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.UnitTesting\obj\Debug\VirtualArtGallery.UnitTesting.dll
 C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.UnitTesting\obj\Debug\VirtualArtGallery.UnitTesting.pdb
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.UnitTesting\bin\Debug\VirtualArtGallery.UnitTesting.dll.config

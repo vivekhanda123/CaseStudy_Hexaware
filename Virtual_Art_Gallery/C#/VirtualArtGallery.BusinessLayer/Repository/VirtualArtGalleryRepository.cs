@@ -13,13 +13,13 @@ namespace VirtualArtGallery.BusinessLayer.Repository
 {
     public class VirtualArtGalleryRepository : IVirtualArtGalleryRepository
     {
-        private static SqlConnection conn = DBConnection.getDBConnection();
-
+        // Add data inside Artwork
         public bool AddArtwork(Artwork artwork)
         {
+            SqlConnection conn = DBConnection.getDBConnection();
             try
             {
-                string query = "INSERT INTO Artwork (Title, Description, CreationDate, Medium, ImageURL) VALUES (@Title, @Description, @CreationDate, @Medium, @ImageURL)";
+                string query = "INSERT INTO Artwork (Title, Description, CreationDate, Medium, ImageURL) VALUES (@Title, @Description, @CreationDate, @Medium, @ImageURL, @ArtistID)";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Title", artwork.Title);
@@ -27,11 +27,13 @@ namespace VirtualArtGallery.BusinessLayer.Repository
                     cmd.Parameters.AddWithValue("@CreationDate", artwork.CreationDate);
                     cmd.Parameters.AddWithValue("@Medium", artwork.Medium);
                     cmd.Parameters.AddWithValue("@ImageURL", artwork.ImageURL);
+                    cmd.Parameters.AddWithValue("@ArtistID", artwork.ArtistID);
 
                     conn.Open();
                     int result = cmd.ExecuteNonQuery();
                     return result > 0; // Returns true if at least one record is affected
                 }
+                
             }
             catch (Exception ex)
             {
@@ -44,14 +46,16 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             }
         }
 
+        // Update the data of Artwork
         public bool UpdateArtwork(Artwork artwork)
         {
+            SqlConnection conn = DBConnection.getDBConnection();
             try
             {
                 string query = "UPDATE Artwork SET Title = @Title, Description = @Description, CreationDate = @CreationDate, Medium = @Medium, ImageURL = @ImageURL WHERE ArtworkID = @ArtworkID";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    //cmd.Parameters.AddWithValue("@ArtworkID", artwork.ArtworkID);
+                    cmd.Parameters.AddWithValue("@ArtworkID", artwork.ArtworkID);
                     cmd.Parameters.AddWithValue("@Title", artwork.Title);
                     cmd.Parameters.AddWithValue("@Description", artwork.Description);
                     cmd.Parameters.AddWithValue("@CreationDate", artwork.CreationDate);
@@ -74,8 +78,10 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             }
         }
 
+        // Remove Artwork
         public bool RemoveArtwork(int artworkID)
         {
+            SqlConnection conn = DBConnection.getDBConnection();
             try
             {
                 string query = "DELETE FROM Artwork WHERE ArtworkID = @ArtworkID";
@@ -99,8 +105,10 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             }
         }
 
+        // Get Artwork By Id
         public Artwork GetArtworkById(int artworkID)
         {
+            SqlConnection conn = DBConnection.getDBConnection();
             try
             {
                 string query = "SELECT * FROM Artwork WHERE ArtworkID = @ArtworkID";
@@ -137,9 +145,11 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             return null; // Return null if not found
         }
 
+        // Search Artworks by keywords or description
         public List<Artwork> SearchArtworks(string keyword)
         {
             var artworks = new List<Artwork>();
+            SqlConnection conn = DBConnection.getDBConnection();
             try
             {
                 string query = "SELECT * FROM Artwork WHERE Title LIKE @Keyword OR Description LIKE @Keyword";
@@ -179,6 +189,7 @@ namespace VirtualArtGallery.BusinessLayer.Repository
         // User Favorites methods
         public bool AddArtworkToFavorite(int userID, int artworkID)
         {
+            SqlConnection conn = DBConnection.getDBConnection();
             // Assuming you have a UserFavorites table to handle user favorites
             try
             {
@@ -204,8 +215,10 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             }
         }
 
+        // Remove Artwork from favorite
         public bool RemoveArtworkFromFavorite(int userID, int artworkID)
         {
+            SqlConnection conn = DBConnection.getDBConnection();
             // Assuming you have a UserFavorites table to handle user favorites
             try
             {
@@ -231,11 +244,14 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             }
         }
 
+        // Get the list of User Favorite Artworks 
         public List<Artwork> GetUserFavoriteArtworks(int userID)
         {
             var favoriteArtworks = new List<Artwork>();
+            SqlConnection conn = DBConnection.getDBConnection();
             try
             {
+                //SqlConnection conn = DBConnection.getDBConnection();
                 string query = "SELECT a.* FROM Artwork a INNER JOIN User_Favorite_Artwork uf ON a.ArtworkID = uf.ArtworkID WHERE uf.UserID = @UserID";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
@@ -265,6 +281,7 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             }
             finally
             {
+
                 if (conn.State == ConnectionState.Open) conn.Close();
             }
             return favoriteArtworks;

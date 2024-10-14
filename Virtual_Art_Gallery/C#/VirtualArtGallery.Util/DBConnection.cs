@@ -4,17 +4,18 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
+
 
 namespace VirtualArtGallery.Util
 {
-    public class DBConnection
+    public static class DBConnection
     {
         public static SqlConnection getDBConnection()
         {
-            SqlConnection conn;
-            string connectionstring = "Data Source=VIVEK21\\SQLEXPRESS;Initial Catalog=VirtualArtDB;Integrated Security=True;Encrypt=False";
-            conn = new SqlConnection();
-            conn.ConnectionString = connectionstring;
+            string connectionString = ConfigurationManager.ConnectionStrings["MyTrainingConnection"].ConnectionString;
+
+            SqlConnection conn = new SqlConnection(connectionString);
             return conn;
         }
     }

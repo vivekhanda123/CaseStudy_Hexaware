@@ -101,6 +101,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        // Add Artwork
         private static void AddArtwork(IVirtualArtGalleryImpl galleryService)
         {
             try
@@ -125,13 +126,17 @@ namespace VirtualArtGallery.UI
                 Console.Write("Enter Image URL: ");
                 string imageUrl = Console.ReadLine();
 
+                Console.Write("Enter ArtistID");
+                int artistID = Convert.ToInt32(Console.ReadLine());
+
                 Artwork artwork = new Artwork
                 {
                     Title = title,
                     Description = description,
                     CreationDate = creationDate,
                     Medium = medium,
-                    ImageURL = imageUrl
+                    ImageURL = imageUrl,
+                    ArtistID = artistID
                 };
 
                 bool result = galleryService.AddArtwork(artwork);
@@ -143,6 +148,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        // Update Artwork
         private static void UpdateArtwork(IVirtualArtGalleryImpl galleryService)
         {
             try
@@ -193,6 +199,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        // Remove Artwork
         private static void RemoveArtwork(IVirtualArtGalleryImpl galleryService)
         {
             try
@@ -214,6 +221,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        // Add Artwork to favorites 
         private static void AddArtworkToFavorites(IVirtualArtGalleryImpl galleryService)
         {
             try
@@ -242,6 +250,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        // Remove artwork from favorites
         private static void RemoveArtworkFromFavorites(IVirtualArtGalleryImpl galleryService)
         {
             try
@@ -270,6 +279,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        // List user favorite artworks 
         private static void ListUserFavoriteArtworks(IVirtualArtGalleryImpl galleryService)
         {
             try
@@ -302,6 +312,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        // Search Artworks 
         private static void SearchArtworks(IVirtualArtGalleryImpl galleryService)
         {
             try
@@ -330,6 +341,7 @@ namespace VirtualArtGallery.UI
             }
         }
 
+        //Get artwork by ID
         private static void GetArtworkById(IVirtualArtGalleryImpl galleryService)
         {
             try
