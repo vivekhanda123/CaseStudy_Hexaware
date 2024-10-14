@@ -1,0 +1,6 @@
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.Entity\bin\Debug\VirtualArtGallery.Entity.dll
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.Entity\bin\Debug\VirtualArtGallery.Entity.pdb
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.Entity\obj\Debug\VirtualArtGallery.Entity.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.Entity\obj\Debug\VirtualArtGallery.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.Entity\obj\Debug\VirtualArtGallery.Entity.dll
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.Entity\obj\Debug\VirtualArtGallery.Entity.pdb

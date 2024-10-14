@@ -1,0 +1,11 @@
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\bin\Debug\VirtualArtGallery.BusinessLayer.dll
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\bin\Debug\VirtualArtGallery.BusinessLayer.pdb
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\bin\Debug\VirtualArtGallery.Entity.dll
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\bin\Debug\VirtualArtGallery.Entity.pdb
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\obj\Debug\VirtualArtGallery.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\obj\Debug\VirtualArtGallery.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\obj\Debug\VirtualA.05DA8483.Up2Date
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\obj\Debug\VirtualArtGallery.BusinessLayer.dll
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\obj\Debug\VirtualArtGallery.BusinessLayer.pdb
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\bin\Debug\VirtualArtGallery.Util.dll
+C:\Users\Admin\Downloads\Hexaware_CaseStudy\Virtual_Art_Gallery\C#\VirtualArtGallery.BusinessLayer\bin\Debug\VirtualArtGallery.Util.pdb
