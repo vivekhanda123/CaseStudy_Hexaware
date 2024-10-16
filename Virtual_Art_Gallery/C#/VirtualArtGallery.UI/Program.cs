@@ -126,8 +126,7 @@ namespace VirtualArtGallery.UI
                 Console.Write("Enter Image URL: ");
                 string imageUrl = Console.ReadLine();
 
-                Console.Write("Enter ArtistID");
-                int artistID = Convert.ToInt32(Console.ReadLine());
+              
 
                 Artwork artwork = new Artwork
                 {
@@ -135,8 +134,7 @@ namespace VirtualArtGallery.UI
                     Description = description,
                     CreationDate = creationDate,
                     Medium = medium,
-                    ImageURL = imageUrl,
-                    ArtistID = artistID
+                    ImageURL = imageUrl
                 };
 
                 bool result = galleryService.AddArtwork(artwork);
@@ -348,13 +346,18 @@ namespace VirtualArtGallery.UI
             {
                 Console.WriteLine("\n--- Get Artwork by ID ---");
                 Console.Write("Enter Artwork ID: ");
+
+                // Use TryParse to safely convert the input to an integer
                 if (!int.TryParse(Console.ReadLine(), out int artworkId))
                 {
-                    Console.WriteLine("Invalid Artwork ID.");
+                    Console.WriteLine("Invalid Artwork ID. Please enter a valid integer.");
                     return;
                 }
 
+                // Call the method to get artwork by ID
                 Artwork artwork = galleryService.GetArtworkById(artworkId);
+
+                // Check if the artwork is found
                 if (artwork != null)
                 {
                     Console.WriteLine($"Artwork ID: {artwork.ArtworkID}");
@@ -371,6 +374,7 @@ namespace VirtualArtGallery.UI
             }
             catch (Exception ex)
             {
+                // Display any errors encountered during the process
                 Console.WriteLine($"Error: {ex.Message}");
             }
         }

@@ -61,8 +61,30 @@ namespace VirtualArtGallery.UnitTesting
         [Test]
         public void RemoveArtworkTest()
         {
-            var result = virtualArtGalleryRepository.RemoveArtwork(2);  // Assuming artworkID = 1 exists
-            Assert.IsTrue(result, "Artwork should be successfully removed.");
+            // First, add the artwork that we are going to remove
+            var addResult = virtualArtGalleryRepository.AddArtwork(new Artwork()
+            {
+                Title = "Artwork to Remove",
+                Description = "Artwork description to be removed.",
+                CreationDate = DateTime.Now,
+                Medium = "Oil on Canvas",
+                ImageURL = "remove_test_image_url",
+                ArtistID = 1
+            });
+
+            Assert.IsTrue(addResult, "Artwork should be added before removing.");
+
+            // Assuming we are removing the most recently added artwork, get its ID (if auto-increment is enabled)
+            var artworkToRemove = virtualArtGalleryRepository.SearchArtworks("Artwork to Remove").FirstOrDefault();
+            Assert.IsNotNull(artworkToRemove, "The artwork to remove should exist in the database.");
+
+            // Now attempt to remove the artwork
+            var removeResult = virtualArtGalleryRepository.RemoveArtwork(artworkToRemove.ArtworkID);
+            Assert.IsTrue(removeResult, "Artwork should be successfully removed.");
+
+            // Verify that the artwork no longer exists in the database
+            var removedArtwork = virtualArtGalleryRepository.GetArtworkById(artworkToRemove.ArtworkID);
+            Assert.IsNull(removedArtwork, "Artwork should no longer exist in the database.");
         }
 
         // d. Check if searching for artworks returns the expected results.

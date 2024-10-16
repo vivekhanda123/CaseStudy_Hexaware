@@ -19,7 +19,7 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             SqlConnection conn = DBConnection.getDBConnection();
             try
             {
-                string query = "INSERT INTO Artwork (Title, Description, CreationDate, Medium, ImageURL) VALUES (@Title, @Description, @CreationDate, @Medium, @ImageURL, @ArtistID)";
+                string query = "INSERT INTO Artwork (Title, Description, CreationDate, Medium, ImageURL) VALUES (@Title, @Description, @CreationDate, @Medium, @ImageURL)";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Title", artwork.Title);
@@ -27,7 +27,7 @@ namespace VirtualArtGallery.BusinessLayer.Repository
                     cmd.Parameters.AddWithValue("@CreationDate", artwork.CreationDate);
                     cmd.Parameters.AddWithValue("@Medium", artwork.Medium);
                     cmd.Parameters.AddWithValue("@ImageURL", artwork.ImageURL);
-                    cmd.Parameters.AddWithValue("@ArtistID", artwork.ArtistID);
+                    //cmd.Parameters.AddWithValue("@ArtistID", artwork.ArtistID);
 
                     conn.Open();
                     int result = cmd.ExecuteNonQuery();
@@ -112,38 +112,48 @@ namespace VirtualArtGallery.BusinessLayer.Repository
             try
             {
                 string query = "SELECT * FROM Artwork WHERE ArtworkID = @ArtworkID";
+
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@ArtworkID", artworkID);
+
                     conn.Open();
+
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         if (reader.Read())
                         {
                             return new Artwork
                             {
-                                ArtworkID = (int)reader["ArtworkID"],
-                                Title = (string)reader["Title"],
-                                Description = (string)reader["Description"],
-                                CreationDate = (DateTime)reader["CreationDate"],
-                                Medium = (string)reader["Medium"],
-                                ImageURL = (string)reader["ImageURL"],
-                                ArtistID = (int)reader["ArtistID"]
+                                ArtworkID = reader["ArtworkID"] != DBNull.Value ? (int)reader["ArtworkID"] : 0,
+                                Title = reader["Title"] != DBNull.Value ? (string)reader["Title"] : string.Empty,
+                                Description = reader["Description"] != DBNull.Value ? (string)reader["Description"] : string.Empty,
+                                CreationDate = reader["CreationDate"] != DBNull.Value ? (DateTime)reader["CreationDate"] : DateTime.MinValue,
+                                Medium = reader["Medium"] != DBNull.Value ? (string)reader["Medium"] : string.Empty,
+                                ImageURL = reader["ImageURL"] != DBNull.Value ? (string)reader["ImageURL"] : string.Empty,
+                                ArtistID = reader["ArtistID"] != DBNull.Value ? (int)reader["ArtistID"] : 0
                             };
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Artwork with ID {artworkID} not found.");
+                            return null;
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
+                // Log any exceptions that occur
                 Console.WriteLine($"Error getting artwork by ID: {ex.Message}");
+                return null;
             }
             finally
             {
                 if (conn.State == ConnectionState.Open) conn.Close();
             }
-            return null; // Return null if not found
         }
+
 
         // Search Artworks by keywords or description
         public List<Artwork> SearchArtworks(string keyword)
@@ -161,16 +171,18 @@ namespace VirtualArtGallery.BusinessLayer.Repository
                     {
                         while (reader.Read())
                         {
-                            artworks.Add(new Artwork
-                            {
-                                ArtworkID = (int)reader["ArtworkID"],
-                                Title = (string)reader["Title"],
-                                Description = (string)reader["Description"],
-                                CreationDate = (DateTime)reader["CreationDate"],
-                                Medium = (string)reader["Medium"],
-                                ImageURL = (string)reader["ImageURL"],
-                                ArtistID = (int)reader["ArtistID"]
-                            });
+                            var artwork = new Artwork();
+
+                            // Use safe casting to handle potential nulls or invalid types
+                            artwork.ArtworkID = reader["ArtworkID"] != DBNull.Value ? Convert.ToInt32(reader["ArtworkID"]) : 0;
+                            artwork.Title = reader["Title"] != DBNull.Value ? reader["Title"].ToString() : string.Empty;
+                            artwork.Description = reader["Description"] != DBNull.Value ? reader["Description"].ToString() : string.Empty;
+                            artwork.CreationDate = reader["CreationDate"] != DBNull.Value ? Convert.ToDateTime(reader["CreationDate"]) : DateTime.MinValue;
+                            artwork.Medium = reader["Medium"] != DBNull.Value ? reader["Medium"].ToString() : string.Empty;
+                            artwork.ImageURL = reader["ImageURL"] != DBNull.Value ? reader["ImageURL"].ToString() : string.Empty;
+                            artwork.ArtistID = reader["ArtistID"] != DBNull.Value ? Convert.ToInt32(reader["ArtistID"]) : 0;
+
+                            artworks.Add(artwork);
                         }
                     }
                 }
