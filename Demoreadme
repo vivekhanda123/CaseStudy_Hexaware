@@ -1,0 +1,78 @@
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+
+[ApiController]
+[Route("api/[controller]")]
+public class HospitalController : ControllerBase
+{
+    private readonly IHospitalService _hospitalService;
+
+    public HospitalController(IHospitalService hospitalService)
+    {
+        _hospitalService = hospitalService;
+    }
+
+    // a. Get Appointment by Id
+    [HttpGet("GetAppointmentById/{appointmentId}")]
+    public ActionResult<Appointment> GetAppointmentById(int appointmentId)
+    {
+        var appointment = _hospitalService.GetAppointmentById(appointmentId);
+        if (appointment == null)
+        {
+            return NotFound("Appointment not found");
+        }
+        return Ok(appointment);
+    }
+
+    // b. Get Appointments for a Patient
+    [HttpGet("GetAppointmentsForPatient/{patientId}")]
+    public ActionResult<List<Appointment>> GetAppointmentsForPatient(int patientId)
+    {
+        var appointments = _hospitalService.GetAppointmentsForPatient(patientId);
+        return Ok(appointments);
+    }
+
+    // c. Get Appointments for a Doctor
+    [HttpGet("GetAppointmentsForDoctor/{doctorId}")]
+    public ActionResult<List<Appointment>> GetAppointmentsForDoctor(int doctorId)
+    {
+        var appointments = _hospitalService.GetAppointmentsForDoctor(doctorId);
+        return Ok(appointments);
+    }
+
+    // d. Schedule Appointment
+    [HttpPost("ScheduleAppointment")]
+    public ActionResult<bool> ScheduleAppointment([FromBody] Appointment appointment)
+    {
+        var result = _hospitalService.ScheduleAppointment(appointment);
+        if (result)
+        {
+            return Ok(true);
+        }
+        return BadRequest("Failed to schedule the appointment");
+    }
+
+    // e. Update Appointment
+    [HttpPut("UpdateAppointment")]
+    public ActionResult<bool> UpdateAppointment([FromBody] Appointment appointment)
+    {
+        var result = _hospitalService.UpdateAppointment(appointment);
+        if (result)
+        {
+            return Ok(true);
+        }
+        return BadRequest("Failed to update the appointment");
+    }
+
+    // f. Cancel Appointment
+    [HttpDelete("CancelAppointment/{appointmentId}")]
+    public ActionResult<bool> CancelAppointment(int appointmentId)
+    {
+        var result = _hospitalService.CancelAppointment(appointmentId);
+        if (result)
+        {
+            return Ok(true);
+        }
+        return BadRequest("Failed to cancel the appointment");
+    }
+}
